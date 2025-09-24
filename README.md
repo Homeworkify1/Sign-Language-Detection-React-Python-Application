@@ -1,6 +1,6 @@
 # Sign Language Recognization
 
-## A Senior Computer Science Project by Antoine M. Harb
+## A Senior Computer Science Project by Zaibten
 
 ## 📌 Project Overview
 Sign Language Recognization is a **sign language recognition application** that provides learning options for the **American Sign Language (ASL)** while also providing transcription into text and speech. It aims to bridge communication gaps for the Deaf and Hard of Hearing (DHH) community using **machine learning**, specfically **deep learning**, and **computer vision**.
@@ -29,7 +29,7 @@ Sign Language Recognization is a **sign language recognition application** that 
 
 ## 📂 Project Structure
 ```
-SignBridge/
+Zaibten/
 │── Backend/                # Python backend with Flask
 │   │── model/              # Trained DL models
 |   │── model_1/            # Test Trained DL models
@@ -56,7 +56,7 @@ SignBridge/
 
 ### **1️⃣ Clone the repository**
 ```sh
-git clone https://github.com/Taco-Lb/Sign-Bridge.git
+git clone https://github.com/Zaibten/Sign-Language-Detection-React-Python-Application.git
 cd SignBridge
 ```
 
