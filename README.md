@@ -1,9 +1,9 @@
-# Sign Bridge
+# Sign Language Recognization
 
 ## A Senior Computer Science Project by Antoine M. Harb
 
 ## 📌 Project Overview
-Sign Bridge is a **sign language recognition application** that provides learning options for the **American Sign Language (ASL)** while also providing transcription into text and speech. It aims to bridge communication gaps for the Deaf and Hard of Hearing (DHH) community using **machine learning**, specfically **deep learning**, and **computer vision**.
+Sign Language Recognization is a **sign language recognition application** that provides learning options for the **American Sign Language (ASL)** while also providing transcription into text and speech. It aims to bridge communication gaps for the Deaf and Hard of Hearing (DHH) community using **machine learning**, specfically **deep learning**, and **computer vision**.
 
 ---
 
@@ -121,19 +121,6 @@ ngrok start --all
 - You can create a '.env' file in the *frontend* where you can store the newly created 'VITE_API_NGROK' (copy the backend port URL for this variable).
 - Use the frontend port URL to run the application on any device.
 
----
-
-## 📸 Demo (Screenshots)
-> Left Web, Right Mobile
-#### **Home Page**
-![Sign Bridge Demo](https://github.com/user-attachments/assets/5506ab05-67a2-4af4-b971-41222ea0f06d)
-#### **Learn Page**
-![Sign Bridge Learn](https://github.com/user-attachments/assets/de16369d-f2a2-43d2-ab29-f8161eaa4a80)
-#### **Transcribe Page**
-![Sign Bridge Transcribe](https://github.com/user-attachments/assets/2a2a1719-b6cb-4e73-8361-30fe2917c335)
-#### **Contact Page**
-![Sign Bridge Contact](https://github.com/user-attachments/assets/7d08289d-bb82-4595-8b80-7ee620d8fb8a)
----
 
 <!-- ## 🤝 Contributing
 1. Fork the repository.
@@ -143,22 +130,6 @@ ngrok start --all
 5. Open a Pull Request.
 ---
 --- -->
-
-## 📄 License
-
-This project is **not open source**.  
-Code is provided for reference only — **do not reuse, copy, or modify** without permission.
-
-📬 Contact for permission:
-- Email: antoinemharb@outlook.com
-- GitHub: [Taco-lb](https://github.com/Taco-lb)
-- LinkedIn: [Antoine M. Harb](https://www.linkedin.com/in/antoinemharb/)
-
-## 🌎 Connect with Me
-🔗 [LinkedIn](https://www.linkedin.com/in/antoinemharb/)  
-😺 [GitHub](https://github.com/Taco-lb)  
-📧 Email: antoinemharb@outlook.com
-
 ---
 
 ## ⭐ Star the Repo!
